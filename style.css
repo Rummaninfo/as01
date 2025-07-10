@@ -117,3 +117,43 @@ text-align: center;
     padding-right: 50px;
     padding-left: 50px;
 }
+
+
+/* #texx-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: red;
+    padding: 80px;
+
+} */
+
+/* .inputFiled{
+    padding: 10px 60px;
+} */
+
+#cardfour{
+    display: flex;
+   align-items: center;
+   padding: 20px;
+   justify-content: space-around;
+   padding-top: 70px;
+   background-color: rgba(0, 0, 255, 0.075);
+}
+
+.inputfiled{
+
+    padding: 10px 72px;
+    border-radius: 10px;
+}
+
+
+#btnone{
+padding: 15px 125px;
+background-color: #4E47FF;
+    border: none;
+  color: white;
+    border-radius: 16px;
+
+}
