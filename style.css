@@ -1,3 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+/* h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+} */ */
+
+
 body{
     .libertinus-math-regular {
   font-family: "Libertinus Math", system-ui;
@@ -11,7 +23,8 @@ body{
 header{
     background-image: url(./Assets/Hero-bg.png);
     height: 400px;
-    background-size: contain;
+    background-size: cover;
+    padding-top: 30px;
    
 }
 nav {
@@ -41,4 +54,66 @@ nav h2{
 }
 #banner-text{
     text-align: center;
+    padding-top: 40px;
+    line-height: 55px;
+}
+/* header chapter close */
+
+Main{
+    max-width: 1040px;
+    margin: auto;
+}
+#action-describe{
+
+   line-height: 30px; 
+}
+
+#action-section{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 15px; 
+    margin: 0 5px;
+   
+}
+
+#action-img{
+    border-radius: 25px;
+}
+
+#card{
+
+/* display: flex; */
+gap: 55px;
+justify-content: center;
+text-align: center;
+}
+
+.card-text{
+
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+
+#card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+   
+   
+}
+
+.card-box{
+
+
+    padding: 20px;
+    background-color: rgba(240, 248, 255, 0.589);
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
